@@ -1,0 +1,20 @@
+{
+  "name": "af-lab03-nodegit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Navanga007/AF-Lab03-NodeGit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Navanga007/AF-Lab03-NodeGit/issues"
+  },
+  "homepage": "https://github.com/Navanga007/AF-Lab03-NodeGit#readme"
+}
