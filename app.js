@@ -1,4 +1,5 @@
 console.log("Node project setup done!");
+console.log("Hiii everyone, welcome to Node.js programming!"); // collobarator change
 const fs = require("fs");
 
 fs.readFile("file1.txt", "utf8", (err, data) => {
