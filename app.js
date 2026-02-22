@@ -49,3 +49,15 @@ const myPromise = new Promise((resolve, reject) => {
 myPromise
   .then((result) => console.log(result))
   .catch((error) => console.log(error));
+  const myPromise1 = Promise.resolve("Success!");
+
+async function myFunction() {
+  try {
+    const result = await myPromise1;
+    console.log(result);
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+myFunction();
